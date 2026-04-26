@@ -1,0 +1,44 @@
+.studentCard {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 20px;
+    padding: 16px;
+    border-radius: 8px;
+    width: 300px;
+}
+.courseTag {
+    background-color: #d0d0d0;
+    padding: 8px;
+    border-radius: 4px;
+    width: fit-content;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.badge{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+.credits{
+    border: 2px solid #007bff;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.gpa{
+    border: 2px solid #007bff;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
