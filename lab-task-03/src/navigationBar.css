@@ -1,0 +1,26 @@
+.navigationBar {
+    border: 2px solid var(--accent);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.navButtons{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.navButton {
+    background-color: var(--accent);
+    color: var(--text-h);
+    font-size: 14px;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
